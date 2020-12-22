@@ -26,7 +26,7 @@
 </head>
 <body>
 <!--引入头部-->
-<div id="header"></div>
+<div><%@include file="header.jsp" %></div>
 <!-- banner start-->
 <section id="banner">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
@@ -243,7 +243,7 @@
             <div class="guone_r">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo2.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
@@ -252,7 +252,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo3.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶)</h3>
@@ -261,7 +261,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo4.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
@@ -270,7 +270,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo5.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
@@ -279,7 +279,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo6.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
@@ -288,7 +288,7 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
+                        <a href="route_detail.jsp">
                             <img src="img/jijie/shuiguo1.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
@@ -309,15 +309,15 @@
                 <span>四季水果茶</span>
             </div>
         </div>
-        <div class="heima_gn">
+        <div class="heima_gn" style="height: 650px">
             <div class="guonei_l">
-                <img src="img/siji/siji1.jpg" alt style="width: 360px;height: 488px;">
+                <img src="img/shouye/shouye2.jpg" alt style="width: 360px;height: 600px;">
             </div>
             <div class="guone_r">
                 <div class="row">
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/shouye/zuixin2.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/shouye/zuixin2.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -325,8 +325,8 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/siji/siji2.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/siji/siji2.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -334,8 +334,8 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/siji/siji3.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/siji/siji3.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -343,8 +343,8 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/shouye/zuixin1.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/shouye/zuixin1.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -352,8 +352,8 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/shouye/zuixin3.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/shouye/zuixin3.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -361,8 +361,8 @@
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a href="route_detail.html">
-                            <img src="img/siji/siji6.jpg" alt style="width: 241px;height: 140px;">
+                        <a href="route_detail.jsp">
+                            <img src="img/siji/siji6.jpg" alt style="width: 241px;height: 241px;">
                             <div class="has_border">
                                 <h3>奶茶</h3>
                                 <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
@@ -377,7 +377,7 @@
 </section>
 <!-- 奶茶 end-->
 <!--导入底部-->
-<div id="footer"></div>
+<div>  <%@include file="footer.jsp" %></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-3.3.1.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
