@@ -95,7 +95,7 @@
                 <div role="tabpanel" class="tab-pane active" id="popularity">
                     <div class="row">
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zhenzhu1.jpg" alt="">
                                 <div class="has_border">
                                     <h3>珍珠奶茶</h3>
@@ -105,7 +105,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/yunibobo.jpg" alt="">
                                 <div class="has_border">
                                     <h3>芋泥啵啵奶茶</h3>
@@ -115,7 +115,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/xueshan.jpg" alt="">
                                 <div class="has_border">
                                     <h3>雪山钙奶慕冬奶茶</h3>
@@ -125,7 +125,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/mocha.jpg" alt="">
                                 <div class="has_border">
                                     <h3>抹茶奶茶</h3>
@@ -139,7 +139,7 @@
                 <div role="tabpanel" class="tab-pane" id="newest">
                     <div class="row">
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zuixin1.jpg" alt="">
                                 <div class="has_border">
                                     <h3>大杯抹茶可可碎星冰乐</h3>
@@ -149,7 +149,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zuixin2.jpg" alt="">
                                 <div class="has_border">
                                     <h3>混珠抹茶奶茶</h3>
@@ -159,7 +159,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zuixin3.jpg" alt="">
                                 <div class="has_border">
                                     <h3>金色山脉宝藏茶</h3>
@@ -169,7 +169,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zuixin4.jpg" alt="">
                                 <div class="has_border">
                                     <h3>抹茶葡提</h3>
@@ -183,7 +183,7 @@
                 <div role="tabpanel" class="tab-pane" id="theme">
                     <div class="row">
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zhutimaomao1.jpg" alt="">
                                 <div class="has_border">
                                     <h3>猫猫咖啡(焦糖)</h3>
@@ -193,7 +193,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zhutimaomao2.jpg" alt="">
                                 <div class="has_border">
                                     <h3>叠猫猫奶茶</h3>
@@ -203,7 +203,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zhutimaomao3.jpg" alt="">
                                 <div class="has_border">
                                     <h3>猫咪吼叫奶茶</h3>
@@ -213,7 +213,7 @@
                             </a>
                         </div>
                         <div class="col-md-3">
-                            <a href="javascript:;">
+                            <a href="route_detail.jsp">
                                 <img src="img/shouye/zhutimaomao4.jpg" alt="">
                                 <div class="has_border">
                                     <h3>芝士猫咪奶盖奶茶</h3>
@@ -247,7 +247,7 @@
                             <img src="img/jijie/shuiguo2.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>
@@ -256,7 +256,7 @@
                             <img src="img/jijie/shuiguo3.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶)</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>
@@ -265,7 +265,7 @@
                             <img src="img/jijie/shuiguo4.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>
@@ -274,7 +274,7 @@
                             <img src="img/jijie/shuiguo5.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>
@@ -283,7 +283,7 @@
                             <img src="img/jijie/shuiguo6.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>
@@ -292,7 +292,7 @@
                             <img src="img/jijie/shuiguo1.jpg" alt="">
                             <div class="has_border">
                                 <h3>奶茶</h3>
-                                <div class="price">网付价<em>￥</em><strong>889</strong><em>起</em></div>
+                                <div class="price">网付价<em>￥</em><strong>15</strong><em>起</em></div>
                             </div>
                         </a>
                     </div>

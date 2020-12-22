@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>黑马旅游-搜索</title>
+    <title>一点点奶茶-搜索</title>
     <link rel="stylesheet" type="text/css" href="css/common.css">
     <link rel="stylesheet" href="css/search.css">
     <script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 <!--引入头部-->
-<div id="header"></div>
+<div><%@include file="header.jsp"%></div>
     <div class="page_one">
         <div class="contant">
             <div class="crumbs">
-                <img src="images/search.png" alt="">
-                <p>黑马旅行><span>搜索结果</span></p>
+                <img src="img/search.jpg" alt="">
+                <p>一点点奶茶><span>搜索结果</span></p>
             </div>
             <div class="xinxi clearfix">
                 <div class="left">
@@ -27,27 +27,27 @@
                     </div>
                     <ul>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>【减100元 含除夕/春节出发】广州增城三英温泉度假酒店/自由行套票</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>形容奶茶</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
                                     <span>&yen;</span>
-                                    <span>299</span>
+                                    <span>18</span>
                                     <span>起</span>
                                 </p>
                                 <p><a href="route_detail.jsp">查看详情</a></p>
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>浪花朵朵旅行普吉岛丛林飞跃空中飞人探险游中文服务泰国旅游</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -59,11 +59,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>黑妞皇家旅行普吉岛攀牙湾大船星光之旅皮划艇日落休闲特色体验</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -75,11 +75,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>浪花朵朵旅行普吉岛皇帝岛珊瑚岛香蕉船拖拽伞水上项目</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -91,11 +91,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>环游记 泰国清迈Lila massage女子监狱spa 丽菈泰式按摩马杀鸡</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -107,11 +107,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>【减100元 含除夕/春节出发】广州增城三英温泉度假酒店/自由行套票</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -123,11 +123,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>【减100元 含除夕/春节出发】广州增城三英温泉度假酒店/自由行套票</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -139,11 +139,11 @@
                             </div>
                         </li>
                         <li>
-                            <div class="img"><img src="images/04-search_03.jpg" alt=""></div>
+                            <div class="img"><img src="img/siji/siji3.jpg" style="width:300px;height:170px;" alt=""></div>
                             <div class="text1">
-                                <p>泰国芭提雅三合一日游芭提雅蒂芬妮人妖秀成人门票bigeye含接送</p>
+                                <p>奶茶名字</p>
                                 <br/>
-                                <p>1-2月出发，网付立享￥1099/2人起！爆款位置有限，抢完即止！</p>
+                                <p>奶茶描述</p>
                             </div>
                             <div class="price">
                                 <p class="price_num">
@@ -185,42 +185,42 @@
                     </div>
                     <ul>
                         <li>
-                            <div class="left"><img src="images/04-search_09.jpg" alt=""></div>
+                            <div class="left"><img src="img/siji/siji3.jpg" style="width:120px;height:71px;" alt=""></div>
                             <div class="right">
-                                <p>清远新银盏温泉度假村酒店/自由行套...</p>
-                                <p>网付价<span>&yen;<span>899</span>起</span>
+                                <p>奶茶名字.</p>
+                                <p>网付价<span>&yen;<span>18</span>起</span>
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <div class="left"><img src="images/04-search_09.jpg" alt=""></div>
+                            <div class="left"><img src="img/siji/siji3.jpg" style="width:120px;height:71px;" alt=""></div>
                             <div class="right">
-                                <p>清远新银盏温泉度假村酒店/自由行套...</p>
-                                <p>网付价<span>&yen;<span>899</span>起</span>
+                                <p>奶茶名字.</p>
+                                <p>网付价<span>&yen;<span>18</span>起</span>
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <div class="left"><img src="images/04-search_09.jpg" alt=""></div>
+                            <div class="left"><img src="img/siji/siji3.jpg" style="width:120px;height:71px;" alt=""></div>
                             <div class="right">
-                                <p>清远新银盏温泉度假村酒店/自由行套...</p>
-                                <p>网付价<span>&yen;<span>899</span>起</span>
+                                <p>奶茶名字.</p>
+                                <p>网付价<span>&yen;<span>18</span>起</span>
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <div class="left"><img src="images/04-search_09.jpg" alt=""></div>
+                            <div class="left"><img src="img/siji/siji3.jpg" style="width:120px;height:71px;" alt=""></div>
                             <div class="right">
-                                <p>清远新银盏温泉度假村酒店/自由行套...</p>
-                                <p>网付价<span>&yen;<span>899</span>起</span>
+                                <p>奶茶名字.</p>
+                                <p>网付价<span>&yen;<span>18</span>起</span>
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <div class="left"><img src="images/04-search_09.jpg" alt=""></div>
+                            <div class="left"><img src="img/siji/siji3.jpg" style="width:120px;height:71px;" alt=""></div>
                             <div class="right">
-                                <p>清远新银盏温泉度假村酒店/自由行套...</p>
-                                <p>网付价<span>&yen;<span>899</span>起</span>
+                                <p>奶茶名字.</p>
+                                <p>网付价<span>&yen;<span>18</span>起</span>
                                 </p>
                             </div>
                         </li>
@@ -230,8 +230,8 @@
         </div>
     </div>
 
-    <!--引入头部-->
-    <div id="footer"></div>
+    <!--引入底部-->
+    <div><%@include file="footer.jsp"%></div>
     <!--导入布局js，共享header和footer-->
     <script type="text/javascript" src="js/include.js"></script>
 </body>

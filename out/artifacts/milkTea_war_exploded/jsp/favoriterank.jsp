@@ -10,7 +10,7 @@
     </head>
     <body>
     <!--引入头部-->
-    <div id="header"></div>
+    <div><%@include file="header.jsp"%></div>
         <div class="contant">
             <div class="shaixuan">
                 <span>奶茶名称</span>
@@ -116,7 +116,7 @@
         </div>
     	
          <!--导入底部-->
-   		 <div id="footer"></div>
+   		 <div><%@include file="footer.jsp"%></div>
     <!--导入布局js，共享header和footer-->
     <script type="text/javascript" src="js/include.js"></script>
     </body>
