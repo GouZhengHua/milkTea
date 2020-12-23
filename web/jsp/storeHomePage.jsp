@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>我们四组奶茶网--用户登录</title>
+    <title>我们四组奶茶网---商铺登录</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/common.css">
@@ -26,7 +26,7 @@
 </head>
 <body>
 <!--引入头部-->
-<div><%@include file="header.jsp" %></div>
+<div><%@include file="storeHeader.jsp" %></div>
 <!-- banner start-->
 <section id="banner">
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
